@@ -9,7 +9,7 @@ function postName($username1) {
     //push
             if ($conn->query($sql) === TRUE) { 
                 echo "Name Insert was Successful";
-                header('Location: http://localhost/backend/try/View/mobileno.php');
+                header('Location: http://68.183.177.183/mysejahteri/View/mobileno.php');
                 //get last id
                 $last_id = $conn->insert_id;
                 echo $last_id;

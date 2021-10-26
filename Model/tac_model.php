@@ -9,7 +9,7 @@ function postNumber($phone){
     WHERE User_ID = $last_id;";
     if ($conn->query($sql) === TRUE) { 
         echo "Phone Number Insert was Successful";
-        header('Location: http://localhost/backend/try/View/tacno.php');
+        header('Location: http://68.183.177.183/mysejahteri/View/tacno.php');
     }
         else {
         echo "Error: " . $sql . "<br>" . $conn->error;

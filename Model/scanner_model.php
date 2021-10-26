@@ -19,7 +19,7 @@ function selectTAC($tac){
         echo "0 results";
         }
     if ($tac == $verifyArr[0]){
-        header('Location: http://localhost/backend/try/View/scanner.php');
+        header('Location: http://68.183.177.183/mysejahteri/View/scanner.php');
         echo "You have been verified";}
     else {
         header('Location: http://localhost/backend/try');
