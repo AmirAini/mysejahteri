@@ -22,7 +22,7 @@ function selectTAC($tac){
         header('Location: http://68.183.177.183/mysejahteri/View/scanner.php');
         echo "You have been verified";}
     else {
-        header('Location: http://localhost/backend/try');
+        header('Location:http://68.183.177.183/mysejahteri/');
         //query
         $sql = "DELETE FROM user WHERE USER_ID = $last_id;";
         //execute
