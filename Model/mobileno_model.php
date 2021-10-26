@@ -29,7 +29,7 @@ function postAdmin() {
     $sql = "DELETE FROM user WHERE USER_ID = $last_id;";
     //execute
     $conn->query($sql);
-    header('Location: http://localhost/backend/try/View/adminCheck.php');
+    header('Location: http://68.183.177.183/mysejahteri/View/adminCheck.php');
 }
 
 
@@ -43,7 +43,7 @@ function postReturn(){
     $sql = "DELETE FROM user WHERE USER_ID = $last_id;";
     //execute
     $conn->query($sql);
-    header('Location: http://localhost/backend/try/index.php');
+    header('Location: http://68.183.177.183/mysejahteri/try/index.php');
 }
 
 
