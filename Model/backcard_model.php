@@ -10,7 +10,7 @@ function postCompany($companyName,$companyLocation){
         //execute
         if ($conn->query($sql) === TRUE) {
             echo "New record created successfully";
-            // (header('Location: http://localhost/backend/try/View/backcard.php'));
+            (header('Location: http://localhost/backend/try/View/backcard.php'));
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
